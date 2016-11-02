@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>133, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1264, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="MenuDocument.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="MenuDocument.Text" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="MenuDocumentNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="MenuDocumentNew.Text" xml:space="preserve">
+    <value>Новый</value>
+  </data>
+  <data name="MenuDocumentOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="MenuDocumentOpen.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="MenuDocumentSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="MenuDocumentSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="MenuDocumentSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="MenuDocumentSaveAs.Text" xml:space="preserve">
+    <value>Сохранить как...</value>
+  </data>
+  <data name="MenuDocumentClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="MenuDocumentClose.Text" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="MenuAlignment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="MenuAlignment.Text" xml:space="preserve">
+    <value>Выравнивание</value>
+  </data>
+  <data name="MenuAlignmentLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="MenuAlignmentLeft.Text" xml:space="preserve">
+    <value>К левому краю</value>
+  </data>
+  <data name="MenuAlignmentCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="MenuAlignmentCenter.Text" xml:space="preserve">
+    <value>По центру</value>
+  </data>
+  <data name="MenuAlignmentRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="MenuAlignmentRight.Text" xml:space="preserve">
+    <value>К правому краю</value>
+  </data>
+  <data name="MainTextWindow.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14.25pt</value>
+  </data>
+  <data name="MainTextWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 63</value>
+  </data>
+  <data name="MainTextWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1178, 582</value>
+  </data>
+  <data name="MainTextWindow.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MainTextWindow.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MainTextWindow.Name" xml:space="preserve">
+    <value>MainTextWindow</value>
+  </data>
+  <data name="&gt;&gt;MainTextWindow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MainTextWindow.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainTextWindow.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="MenuLabelSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MenuLabelSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 5</value>
+  </data>
+  <data name="MenuLabelSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="MenuLabelSize.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="MenuLabelSize.Text" xml:space="preserve">
+    <value>Размер текста</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelSize.Name" xml:space="preserve">
+    <value>MenuLabelSize</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelSize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="MenuSizeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>283, 3</value>
+  </data>
+  <data name="MenuSizeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="MenuSizeText.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;MenuSizeText.Name" xml:space="preserve">
+    <value>MenuSizeText</value>
+  </data>
+  <data name="&gt;&gt;MenuSizeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuSizeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuSizeText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="MenuLabelFont.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MenuLabelFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 5</value>
+  </data>
+  <data name="MenuLabelFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="MenuLabelFont.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="MenuLabelFont.Text" xml:space="preserve">
+    <value>Шрифт</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelFont.Name" xml:space="preserve">
+    <value>MenuLabelFont</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelFont.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuLabelFont.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BottomSymbolsCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BottomSymbolsCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 659</value>
+  </data>
+  <data name="BottomSymbolsCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 13</value>
+  </data>
+  <data name="BottomSymbolsCount.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BottomSymbolsCount.Text" xml:space="preserve">
+    <value>Количество символов: 0.</value>
+  </data>
+  <data name="&gt;&gt;BottomSymbolsCount.Name" xml:space="preserve">
+    <value>BottomSymbolsCount</value>
+  </data>
+  <data name="&gt;&gt;BottomSymbolsCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BottomSymbolsCount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BottomSymbolsCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>246, 18</value>
+  </metadata>
+  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>379, 18</value>
+  </metadata>
+  <data name="MenuFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 3</value>
+  </data>
+  <data name="MenuFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 21</value>
+  </data>
+  <data name="MenuFont.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;MenuFont.Name" xml:space="preserve">
+    <value>MenuFont</value>
+  </data>
+  <data name="&gt;&gt;MenuFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFont.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuFont.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>72</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1264, 681</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1280, 720</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1280, 720</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>WrIte</value>
+  </data>
+  <data name="&gt;&gt;MenuDocument.Name" xml:space="preserve">
+    <value>MenuDocument</value>
+  </data>
+  <data name="&gt;&gt;MenuDocument.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentNew.Name" xml:space="preserve">
+    <value>MenuDocumentNew</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentOpen.Name" xml:space="preserve">
+    <value>MenuDocumentOpen</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentSave.Name" xml:space="preserve">
+    <value>MenuDocumentSave</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentSaveAs.Name" xml:space="preserve">
+    <value>MenuDocumentSaveAs</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentSaveAs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentClose.Name" xml:space="preserve">
+    <value>MenuDocumentClose</value>
+  </data>
+  <data name="&gt;&gt;MenuDocumentClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignment.Name" xml:space="preserve">
+    <value>MenuAlignment</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignmentLeft.Name" xml:space="preserve">
+    <value>MenuAlignmentLeft</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignmentLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignmentCenter.Name" xml:space="preserve">
+    <value>MenuAlignmentCenter</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignmentCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignmentRight.Name" xml:space="preserve">
+    <value>MenuAlignmentRight</value>
+  </data>
+  <data name="&gt;&gt;MenuAlignmentRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
+    <value>saveFileDialog</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WrITe</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
